@@ -8,5 +8,4 @@ def game():
  and I also {adj2} programming."
   print(madlib)
 
-
 game()
