@@ -1,4 +1,4 @@
-def game():
+def madlib():
   name = input("Your name: ")
   verb1 = input("Verb: ")
   verb2 = input("Verb: ")
@@ -7,5 +7,3 @@ def game():
   madlib = f"Hello my name is {name}. I like {verb1} and {verb2}. {verb1} is so {adj1} \
  and I also {adj2} programming."
   print(madlib)
-
-game()
