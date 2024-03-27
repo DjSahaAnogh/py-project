@@ -1,5 +1,6 @@
 import random
 from madlib import *
+from rock_paper_scissors import rps_game
 
 def guess(x):
   rand_num = random.randint(1, x)
@@ -32,7 +33,7 @@ def computer_guess(x):
 
 
 def game_chooes():
-  game_name = input("Enter the game name (Madlib, Guess(User), Guess(Computer)): ")
+  game_name = input("Enter the game name (Madlib, Guess(User), Guess(Computer), R-P-S): ")
   if game_name == "Madlib":
     madlib()
   elif game_name == "Guess(User)":
@@ -41,6 +42,8 @@ def game_chooes():
   elif game_name == "Guess(Computer)":
     x = int(input("Range: "))
     computer_guess(x)
+  elif game_name == "R-P-S":
+    rps_game()
   else:
     print("Sorry, that's all we have.")
 
