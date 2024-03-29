@@ -13,5 +13,3 @@ def is_win(user, computer):
   if (user == "r" and computer == "s") or (user == "p" and computer == "r") or (user == "s" and computer == "p"):
     return True
   
-
-rps_game()

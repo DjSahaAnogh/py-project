@@ -31,21 +31,3 @@ def computer_guess(x):
   
   print(f"Yay, computer guessed your number, {guess}, correctly!!")
 
-
-def game_chooes():
-  game_name = input("Enter the game name (Madlib, Guess(User), Guess(Computer), R-P-S): ")
-  if game_name == "Madlib":
-    madlib()
-  elif game_name == "Guess(User)":
-    x = int(input("Range: "))
-    guess(x)
-  elif game_name == "Guess(Computer)":
-    x = int(input("Range: "))
-    computer_guess(x)
-  elif game_name == "R-P-S":
-    rps_game()
-  else:
-    print("Sorry, that's all we have.")
-
-
-game_chooes()
