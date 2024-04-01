@@ -6,14 +6,14 @@ from hangman import hangman
 
 
 def game_chooes():
-  game_name = input("Enter the game name (Madlib, Guess(User), Guess(Computer), Rps, Hangman): ")
+  game_name = input("Enter the game name (Madlib, Guess(user), Guess(computer), Rps, Hangman): ")
   name = game_name.capitalize()
   if name == "Madlib":
     madlib()
-  elif name == "Guess(User)":
+  elif name == "Guess(user)":
     x = int(input("Range: "))
     guess(x)
-  elif name == "Guess(Computer)":
+  elif name == "Guess(computer)":
     x = int(input("Range: "))
     computer_guess(x)
   elif name == "Rps":
