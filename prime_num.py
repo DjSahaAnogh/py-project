@@ -18,4 +18,10 @@ def check_prime():
     check_prime()
 
 
-check_prime()
+#check_prime()
+
+
+a = True
+b = True
+if not a:
+  print("Ok")
